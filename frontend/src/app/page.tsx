@@ -20,7 +20,7 @@ function parseJwt(token: string) {
   }
 }
 
-const API = process.env.NEXT_PUBLIC_API_BASE_URL ?? "http://localhost:8000";
+const API = "https://saffron-cloud.onrender.com";
 
 export default function Home() {
   const [location, setLocation] = useState("");
@@ -128,7 +128,7 @@ export default function Home() {
     setError("");
     setIsRefreshing(true);
     try {
-      const res = await resilientFetch(`${API}/api/weather?location=${target}`);
+      const res = await resilientFetch(`${API}/api/weather?location=${target}`, { headers: getAuthHeaders() });
       const data = await res.json();
       if (res.ok) {
         setWeather(data);
