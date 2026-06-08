@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Saffron Hub</string>
+    <string name="title_activity_main">Saffron Hub</string>
+    <string name="package_name">com.saffron.hub</string>
+    <string name="custom_url_scheme">com.saffron.hub</string>
+</resources>

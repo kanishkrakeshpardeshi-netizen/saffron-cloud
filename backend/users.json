@@ -1,0 +1,20 @@
+{
+    "kanishk": {
+        "password_hash": "ac252b7c62c308f1f2200db795ac23ccf70ca1b93c88080267d9336ea412259b",
+        "role": "user",
+        "pi": {
+            "ip": "192.101.1.100",
+            "username": "pi",
+            "password": "1234567890"
+        }
+    },
+    "soham": {
+        "password_hash": "4b20caaab62bc4de8f6282253807fd1cf8d3c801f75ce96d3c76b089f9bd0bed",
+        "role": "user",
+        "pi": {
+            "ip": "192.168.7",
+            "username": "soham",
+            "password": "hello"
+        }
+    }
+}

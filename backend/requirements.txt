@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+paho-mqtt
+requests
+passlib[bcrypt]
+bcrypt==3.2.2
+PyJWT
+python-multipart
+python-dotenv
+websockets
+paramiko

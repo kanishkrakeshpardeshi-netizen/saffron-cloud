@@ -1,0 +1,16 @@
+{
+  "name": "Saffine",
+  "short_name": "Saffine",
+  "description": "Smart Crop Intelligence Dashboard",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2c2c31",
+  "theme_color": "#e0a96d",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}

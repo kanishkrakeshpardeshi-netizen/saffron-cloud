@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: saffron-cloud-backend
+    env: python
+    buildCommand: "cd frontend && npm install && npm run build && cd ../backend && pip install -r requirements.txt"
+    startCommand: "cd backend && uvicorn main:app --host 0.0.0.0 --port $PORT"
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./saffron.db
+      - key: MQTT_BROKER
+        value: broker.hivemq.com
+      - key: SECRET_KEY
+        generateValue: true
